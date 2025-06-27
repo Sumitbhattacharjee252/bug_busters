@@ -22,6 +22,7 @@ public class StackDemoSteps {
     private HomePage homePage;
 
     // This method runs before each scenario to set up the WebDriver and HomePage
+    //Fpr Sumit Branch
     @Before
     public void setUp() throws MalformedURLException {
         MutableCapabilities capabilities = new MutableCapabilities();
