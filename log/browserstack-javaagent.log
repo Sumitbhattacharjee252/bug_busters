@@ -86,3 +86,129 @@
 23:12:34.063 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
 23:12:34.081 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 7694f741-6e60-4cd3-b7e5-dea62773152e, testhub id: a57wkjvrdfdhe60nn7u5uimjnf6oakikheynnez4
 23:12:34.082 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:14:52.820 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:14:52.820 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:14:53.033 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+13:14:53.034 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sumit\Downloads\cucumber-java-browserstack-master\bug_busters\browserstack.yml
+13:14:53.075 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:14:53.566 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+13:14:53.568 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: d5fa36fc-6092-44ae-9e41-edbcb0ceca8a
+13:14:53.568 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:14:53.585 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\sumit\.browserstack already exist
+13:14:53.587 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\sumit\.browserstack\cli\binary-win-x64.exe
+13:14:57.304 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\sumit\.browserstack\cli\binary-win-x64.exe
+13:14:57.325 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=cucumber-testng
+13:15:03.149 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:15:04.788 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: obwybrhun247htjx4xq7qcpnuqeacdjlxxivitck
+13:15:04.788 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:15:04.794 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+13:15:06.244 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:15:06.244 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:15:13.526 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:15:14.905 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/obwybrhun247htjx4xq7qcpnuqeacdjlxxivitck to view build report, insights, and many more debugging information all at one place!
+
+13:15:14.906 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:15:14.907 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+13:15:17.842 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sumit\Downloads\cucumber-java-browserstack-master\bug_busters\browserstack.yml
+13:15:17.842 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sumit\Downloads\cucumber-java-browserstack-master\bug_busters\browserstack.yml
+13:15:19.936 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/829e99e10e07675f493a3edb6c00594361fbe732
+13:15:19.936 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:15:19.947 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: d5fa36fc-6092-44ae-9e41-edbcb0ceca8a, testhub id: obwybrhun247htjx4xq7qcpnuqeacdjlxxivitck
+13:15:19.948 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:23:38.752 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+13:23:38.752 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:23:38.901 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+13:23:38.901 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sumit\Downloads\cucumber-java-browserstack-master\bug_busters\browserstack.yml
+13:23:38.943 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:23:39.408 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+13:23:39.410 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: d4196160-7d1f-4bf4-98dd-159a38925da2
+13:23:39.410 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:23:39.429 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\sumit\.browserstack already exist
+13:23:39.431 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\sumit\.browserstack\cli\binary-win-x64.exe
+13:23:40.630 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\sumit\.browserstack\cli\binary-win-x64.exe
+13:23:40.641 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=cucumber-testng
+13:23:45.931 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:23:47.100 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: epec0lcp7esmlijplhdoouvhcjxfoy8avhjmgfpj
+13:23:47.100 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:23:47.104 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+13:23:47.644 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:23:47.645 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:23:53.363 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:23:54.611 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/epec0lcp7esmlijplhdoouvhcjxfoy8avhjmgfpj to view build report, insights, and many more debugging information all at one place!
+
+13:23:54.611 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:23:54.615 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+13:23:57.881 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sumit\Downloads\cucumber-java-browserstack-master\bug_busters\browserstack.yml
+13:23:57.881 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sumit\Downloads\cucumber-java-browserstack-master\bug_busters\browserstack.yml
+13:23:59.986 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/8d05e98ed940b7c6298c2f8f6a3c3950dadeae54
+13:23:59.986 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:23:59.997 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: d4196160-7d1f-4bf4-98dd-159a38925da2, testhub id: epec0lcp7esmlijplhdoouvhcjxfoy8avhjmgfpj
+13:23:59.998 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:02:02.185 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+14:02:02.187 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:02:02.707 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:02:02.709 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sumit\Downloads\cucumber-java-browserstack-master\bug_busters\browserstack.yml
+14:02:02.852 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:02:04.361 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+14:02:04.365 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 20a2deec-d993-4519-8cf9-04594508de46
+14:02:04.366 [main] INFO  c.b.config.BrowserStackConfig - INFO
+14:02:04.401 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\sumit\.browserstack already exist
+14:02:04.407 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\sumit\.browserstack\cli\binary-win-x64.exe
+14:02:06.298 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\sumit\.browserstack\cli\binary-win-x64.exe
+14:02:06.312 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=cucumber-testng
+14:02:12.328 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:02:13.641 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: jcckhsb9v8da1kox5szjaslxgaxabtbpckq5wyoq
+14:02:13.641 [main] INFO  c.b.config.BrowserStackConfig - INFO
+14:02:13.646 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+14:02:15.203 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:02:15.204 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:02:22.862 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:02:25.740 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/jcckhsb9v8da1kox5szjaslxgaxabtbpckq5wyoq to view build report, insights, and many more debugging information all at one place!
+
+14:02:25.741 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:02:25.745 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+14:02:30.363 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sumit\Downloads\cucumber-java-browserstack-master\bug_busters\browserstack.yml
+14:02:30.363 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sumit\Downloads\cucumber-java-browserstack-master\bug_busters\browserstack.yml
+14:02:33.741 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/0375677102961c58b1afb572ef97e822f09cd6a2
+14:02:33.741 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:02:33.759 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 20a2deec-d993-4519-8cf9-04594508de46, testhub id: jcckhsb9v8da1kox5szjaslxgaxabtbpckq5wyoq
+14:02:33.759 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO

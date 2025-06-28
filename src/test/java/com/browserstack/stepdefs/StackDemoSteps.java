@@ -1,4 +1,4 @@
-package com.browserstack.stepdefs;
+/*package com.browserstack.stepdefs;
 
 import com.browserstack.pageobjects.HomePage;
 import io.cucumber.java.After;
@@ -70,3 +70,4 @@ public class StackDemoSteps {
         driver.quit();
     }
 }
+*/
