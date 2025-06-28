@@ -39,7 +39,7 @@ public class StackDemoSteps {
     @Given("^I am on the website '(.+)'$")
     public void I_am_on_the_website(String url) throws Throwable {
         driver.get(url);
-        Thread.sleep(2000); // Wait for the page to load
+        Thread.sleep(2000);// Wait for the page to load
     }
 
     // Step definition for selecting a product and adding it to the cart
