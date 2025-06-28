@@ -23,3 +23,5 @@ CUSTOM_TAG_1: "You can set a custom Build Tag here"
 debug: true
 networkLogs: true
 consoleLogs: info
+testObservability: true
+browserstackAutomation: true
