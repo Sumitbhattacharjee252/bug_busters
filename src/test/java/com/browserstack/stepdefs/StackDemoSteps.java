@@ -22,6 +22,7 @@ public class StackDemoSteps {
     private HomePage homePage;
 
     // This method runs before each scenario to set up the WebDriver and HomePage
+    //Fpr Sumit Branch
     @Before
     public void setUp() throws MalformedURLException {
         MutableCapabilities capabilities = new MutableCapabilities();
@@ -38,7 +39,7 @@ public class StackDemoSteps {
     @Given("^I am on the website '(.+)'$")
     public void I_am_on_the_website(String url) throws Throwable {
         driver.get(url);
-        Thread.sleep(2000); // Wait for the page to load
+        Thread.sleep(2000);// Wait for the page to load
     }
 
     // Step definition for selecting a product and adding it to the cart
