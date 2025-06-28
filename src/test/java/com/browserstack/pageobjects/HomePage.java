@@ -19,6 +19,8 @@ public class HomePage {
 
     private By firstProductName = By.xpath("//*[@id=\"1\"]/p");
 
+    private By signInButton = By.xpath("//a[@id='Sign In']");
+
     private By firstProductAddToCartButton = By.xpath("//*[@id=\"1\"]/div[4]");
 
     private By cartPane = By.className("float-cart__content");
@@ -32,6 +34,9 @@ public class HomePage {
 
     public void clickAddToCartButton() {
         webDriver.findElement(firstProductAddToCartButton).click();
+    }
+    public void clickSignInButton() {
+        webDriver.findElement(signInButton).click();
     }
 
     public void waitForCartToOpen() {
